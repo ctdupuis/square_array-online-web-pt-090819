@@ -3,6 +3,6 @@ def square_array(array)
   squares = []
   
   array.each do |element|
-    squares << element * element
+    squares << element ** 2
   end
 end
